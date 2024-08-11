@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/nameET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name" />
+
+        <EditText
+            android:id="@+id/emailET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email" />
+
+        <EditText
+            android:id="@+id/fatherET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Father's Name" />
+
+        <EditText
+            android:id="@+id/motherET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mother's Name" />
+
+        <EditText
+            android:id="@+id/professionET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Profession" />
+
+        <EditText
+            android:id="@+id/genderET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Gender" />
+
+        <EditText
+            android:id="@+id/ageET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Age" />
+
+        <EditText
+            android:id="@+id/religionET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Religion" />
+
+        <EditText
+            android:id="@+id/bloodgroupET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Blood Group" />
+
+        <EditText
+            android:id="@+id/contactnoET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contact No" />
+
+        <EditText
+            android:id="@+id/heightET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Height" />
+
+        <EditText
+            android:id="@+id/weightET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Weight" />
+
+        <EditText
+            android:id="@+id/presentaddressET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Present Address" />
+
+        <EditText
+            android:id="@+id/permanentaddressET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Permanent Address" />
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit" />
+    </LinearLayout>
+</ScrollView>
